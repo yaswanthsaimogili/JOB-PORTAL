@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*
+{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+	
+}
+.navbar-brand
+{
+font-size:15px;
+font-family: 'Kaushan Script', cursive;	
+color:green !important;
+}
+.menu-bar h5
+{
+font-size:15px;
+font-family: 'Kaushan Script', cursive;	
+color:green !important;
+}
+.menu-bar
+{
+background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+}
+.nav-link
+{
+	font-size:16px;
+	color:#fff !important;
+	margin:2px;
+}
+.navbar-nav
+{
+	text-align:right;
+}
+.nav-item :hover
+{
+	color:#fff;
+	background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+	
+}
+
+.menu-bar .navabar-toggler
+{
+	padding-right:0;
+}
+.banner
+{
+	height:80vh;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://m.economictimes.com/thumb/msid-70711900,width-1200,height-900,resizemode-4,imgsize-152336/2-7.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	color:#fff;
+}
+.banner h1
+{
+	padding-top:250px;
+	font-size:50px;
+	letter-spacing:6px;
+	font-weight:600;
+	text-shadow:0 0 30px rgba(0,0,0,0.5);
+}
+.search-job
+{   
+	padding:20px 0;
+	margin:-30px 2% 30px;
+	background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+}
+.form-control
+{
+	font-size:25px;
+}
+.search-job .form-control
+{  
+	max-width:400px;
+	display:inline-flex;
+	margin:10px 5px;
+	border-radius:0;
+	box-shadow:none !important;
+	border: none !important;
+}
+.search-job .btn-primary
+{
+	border: none !important;
+	box-shadow: none !important;
+	border-radius:0;
+	display:inline-flex;
+	margin:5px;
+	padding:5px 20px;
+}
+#top
+{
+	padding-top:50px;
+	padding-bottom:50px;
+
+}
+.recruiters h2
+{
+	size:50px;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#jobdetails
+{
+	background:#f8f8fa;
+	margin-bottom:100px;
+}
+.container h1
+{
+	margin-bottom:50px;
+}
+.company-details
+{
+	box-shadow:0 2px 30px 0 ;
+	border-radius:5px;
+	margin-bottom:20px;
+	margin-left:20px;
+}
+.company-details h4
+{
+	margin-left:20px;
+}
+.company-details a
+{
+	margin-left:20px;
+}
+.company-details button
+{
+	margin-left:20px;
+	margin-bottom:20px;
+}
+#page-numbers
+{
+	font-size:25px;
+}
+.page-link li
+{
+	height: 25px;
+	width: 25px;
+	list-style: none;
+	display: inline-block;
+	cursor:pointer;
+	font-size:30px;
+}
+.page-link li:hover
+{
+	color:#fff;
+	background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+	
+}
+
+.carousel-item
+{
+	
+	background-color:#f8f8fa;
+
+}
+
+#footer
+{
+	margin-top:75px;
+}
+.clm1
+{   
+	margin-left:20px;
+	margin-right:100px;
+}
+.clm
+{   
+	margin-left:20px;
+	margin-right:100px;
+}
+.row,p
+{       padding-top:20px;
+		background-color:#f5f5fa;
+}
+.clm li
+{
+	margin-left:20px;
+}
+.card .bi
+{
+	color:#77d1b1;
+}
+.carousel-item  .bi
+{
+color:#77d1b1;	
+}
+@media screen and (max-width: 992px) {
+  .list{
+    width: 50%;
+  }
+}

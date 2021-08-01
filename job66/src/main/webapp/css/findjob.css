@@ -1,0 +1,230 @@
+ @charset "ISO-8859-1";
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Rubik:ital@1&display=swap');
+*
+{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;	
+}
+
+  
+.navbar-brand
+{
+font-size:25px;
+font-family: 'Kaushan Script', cursive;	
+color:green !important;
+}
+.menu-bar h5
+{
+font-size:15px;
+font-family: 'Kaushan Script', cursive;	
+color:green !important;
+}
+.menu-bar
+{
+background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+}
+.nav-link
+{
+	font-size:16px;
+	color:#fff !important;
+	margin:2px;
+}
+.navbar-nav
+{
+	text-align:right;
+}
+.menu-bar .navabar-toggler
+{
+	padding-right:0;
+}
+.nav-item :hover
+{
+	color:#fff;
+	background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+	
+}
+.search .container {
+  max-width: 800px;
+  width: 100%;
+  background-color: #fff;
+  
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  margin-top:100px;
+}
+.search .container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.search .container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 1px;
+  margin-right:10px; 
+ width: calc(50% / 2 - 10px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.user-details .input-box input{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  display:inline;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}
+form .input-box label{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.user-details .input-box select{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.1s ease;
+}
+.user-details .input-box select:focus,
+.user-details .input-box select:valid{
+  border-color: #9b59b6;
+}
+form .button{
+	
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   
+   height: 80%;
+   width: 150%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+ form .button input:hover{
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  }
+ 
+.pagenumber
+{   
+    margin-top:20px;
+	font-size:15px;
+}
+.page-link li
+{   
+
+	height: 20px;
+	width: 20px;
+	list-style: none;
+	display: inline-block;
+	cursor:pointer;
+	font-size:20px;
+}
+.page-link li:hover
+{
+	color:#fff;
+	background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+	
+}
+.card-deck
+{
+	margin-top:50px;
+}
+.card
+{   
+    box-shadow:0 2px 20px 0 ;
+	margin-left:20px;
+}
+.card-body ,h4
+{
+	 font-size:25px;
+}
+	
+.card-deck :hover
+{
+	color:white;
+	background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+	
+}
+#jobdetails h3
+{   
+    color:green;
+    margin-top:50px;
+	background-image:linear-gradient(to right, #aff6cf 0%, #9f98e8 74%) ; 
+}
+
+#footer
+{
+	margin-top:75px;
+}
+.clm1
+{   
+	margin-left:20px;
+	margin-right:100px;
+}
+.clm
+{   
+	margin-left:20px;
+	margin-right:100px;
+}
+.row,p
+{       padding-top:20px;
+		background-color:#f5f5fa;
+}
+.clm li
+{
+	margin-left:20px;
+}
+
+
+.clm .fas
+{
+	color:#77d1b1;
+
+}
+
+.clm .fab
+{
+	color:#77d1b1;
+}
+.card-body .bi
+{
+	color:#77d1b1;
+}

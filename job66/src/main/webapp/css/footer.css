@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+#footer
+{
+	margin-top:75px;
+}
+.clm1
+{   
+	margin-left:20px;
+	margin-right:100px;
+}
+.clm
+{   
+	margin-left:20px;
+	margin-right:100px;
+}
+.row,p
+{       padding-top:20px;
+		background-color:#f5f5fa;
+}
+.clm li
+{
+	margin-left:20px;
+}
+
+.card-body .fas
+{
+	color:#77d1b1;
+}
+.clm .fa
+{
+	color:#77d1b1;
+
+}
+
+.clm .bi
+{
+	color:#77d1b1;
+}

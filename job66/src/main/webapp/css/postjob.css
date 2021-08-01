@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Rubik:ital@1&display=swap');
+*
+{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+	
+	
+}
+   
+.welcome
+{
+  margin-top:300px;
+  font-size:50px;
+}
+.welcome h5 
+{
+  font-size:25px;
+  font-style:bold;
+}
+
+.card-deck
+{
+	margin-top:100px;
+}
+.card
+{   
+    box-shadow:0 2px 20px 0 ;
+	margin-left:20px;
+}
+.card h4
+{    color:green;
+     font-family: 'Odibee Sans', cursive;
+	 background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+}
+.card-body h5
+{
+	font-family: 'Odibee Sans', cursive;
+font-family: 'Rubik', sans-serif;
+}
+.card-body h6
+{
+	font-family: 'Odibee Sans', cursive;
+font-family: 'Rubik', sans-serif;
+}
+.card-deck :hover
+{
+	color:white;
+	background-image: linear-gradient(to right, #aff6cf 0%, #9f98e8 74%);
+	
+}
